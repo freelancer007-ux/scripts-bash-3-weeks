@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ps -ef | grep "bash" >> ps-$(date +%H-%M-%S)
+ps -ef | grep "nginx" >> ps-$(date +%H-%M-%S)
